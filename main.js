@@ -4,7 +4,7 @@
         window.scrollBy(0,1000);
         scrolldelay = setTimeout(pageScroll,10);
     }
-
+//TODO проверка на pageYOffset 
     pageScroll();
 
     const audioRow = document.querySelectorAll('.audio_row');
