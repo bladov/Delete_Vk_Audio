@@ -10,5 +10,5 @@
         deletBtn.dispatchEvent(new Event('click'))
         num++;
         if(audioRow.length < num) clearInterval(timer);
-    }, 10);
+    }, 70);
 })();
