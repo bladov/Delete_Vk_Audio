@@ -1,8 +1,9 @@
 // вставить код в консоль
 (function() {
     function pageScroll() {
-        window.scrollBy(0,1000);
-        scrolldelay = setTimeout(pageScroll,10);
+        window.scrollBy(0,10000);
+        scrolldelay = setTimeout(pageScroll,30);
+        clearInterval(scrolldelay);
     }
 //TODO проверка на pageYOffset 
     pageScroll();
